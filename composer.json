@@ -1,0 +1,34 @@
+{
+    "name": "meeftah/filament-autocomplete",
+    "description": "Filament Auto Complete",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meeftah\\FilamentAutoComplete\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "meeftah",
+            "email": "miftah.yuda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "filament/forms": "^3.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Meeftah\\FilamentAutoComplete\\FilamentAutoCompleteProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
