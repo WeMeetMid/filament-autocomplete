@@ -1,6 +1,6 @@
 <?php
 
-namespace Meeftah\FilamentAutoSuggestion\Concerns;
+namespace WeMeetMid\FilamentAutoSuggestion\Concerns;
 
 use Closure;
 use Filament\Support\Contracts\HasLabel as LabelInterface;

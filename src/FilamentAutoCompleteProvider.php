@@ -1,6 +1,6 @@
 <?php
 
-namespace Meeftah\FilamentAutoComplete;
+namespace WeMeetMid\FilamentAutoComplete;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Facades\FilamentAsset;
@@ -22,7 +22,7 @@ class FilamentAutoCompleteProvider extends PackageServiceProvider
             assets: [
                 AlpineComponent::make('filament-autocomplete', __DIR__.'/../resources/js/filament-autocomplete.js'),
             ],
-            package: 'meeftah/filament-autocomplete'
+            package: 'wemeetmid/filament-autocomplete'
         );
     }
 }

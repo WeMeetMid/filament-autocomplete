@@ -1,11 +1,11 @@
 {
-    "name": "meeftah/filament-autocomplete",
+    "name": "wemeetmid/filament-autocomplete",
     "description": "Filament Auto Complete",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Meeftah\\FilamentAutoComplete\\": "src/"
+            "WeMeetMid\\FilamentAutoComplete\\": "src/"
         }
     },
     "authors": [
@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Meeftah\\FilamentAutoComplete\\FilamentAutoCompleteProvider"
+                "WeMeetMid\\FilamentAutoComplete\\FilamentAutoCompleteProvider"
             ]
         }
     },

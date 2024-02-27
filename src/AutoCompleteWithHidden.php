@@ -1,6 +1,6 @@
 <?php
 
-namespace Meeftah\FilamentAutoComplete;
+namespace WeMeetMid\FilamentAutoComplete;
 
 use Filament\Forms\Components\Group;
 use Filament\Forms\Components\Hidden;

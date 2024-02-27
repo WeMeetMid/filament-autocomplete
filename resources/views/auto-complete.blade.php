@@ -24,7 +24,7 @@
     <div
         x-ignore
         ax-load
-        ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('filament-autocomplete', package: 'meeftah/filament-autocomplete') }}"
+        ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('filament-autocomplete', package: 'wemeetmid/filament-autocomplete') }}"
         x-data="autoCompleteFormComponent({
             key: @entangle($statePath),
             autoSelect: @js($autoSelect),
